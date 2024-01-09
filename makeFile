@@ -1,0 +1,8 @@
+-include .env
+
+
+build:;
+	forge compile 
+
+deploy:;
+	forge script script/DeployBuyMeACoffee.s.sol --rpc-url $(SEPOLIA_RPC_URL) --private-key $(PRIVATE_KEY) --broadcast

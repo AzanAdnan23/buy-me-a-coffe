@@ -6,11 +6,10 @@ import {Script} from "forge-std/Script.sol";
 import {BuyMeACoffee} from "../src/BuyMeACoffee.sol";
 
 contract DeployBuyMeACoffee is Script {
-    function run() public returns (BuyMeACoffee) {
+    function run() public {
         vm.startBroadcast();
-        BuyMeACoffee buyMeACoffee = new BuyMeACoffee();
+        new BuyMeACoffee();
 
         vm.stopBroadcast();
-        return buyMeACoffee;
     }
 }

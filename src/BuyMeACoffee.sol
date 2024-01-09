@@ -4,6 +4,9 @@ pragma solidity ^0.8.0;
 
 contract BuyMeACoffee {
     // deploy it on sepolia and front end using scafold-eth
+    // make helper config file
+    // do integration testing
+
     address payable public owner;
 
     constructor() {

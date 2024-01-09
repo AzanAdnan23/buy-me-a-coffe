@@ -1,0 +1,6 @@
+BuyMeACoffeeTest:testBuyCoffee() (gas: 133793)
+BuyMeACoffeeTest:testBuyMeCoffeeBalanceAfterBuying() (gas: 259)
+BuyMeACoffeeTest:testBuyMeWithPrank() (gas: 133401)
+BuyMeACoffeeTest:testMemos() (gas: 134509)
+BuyMeACoffeeTest:testOwner() (gas: 9819)
+BuyMeACoffeeTest:testWithdrawTips() (gas: 147812)

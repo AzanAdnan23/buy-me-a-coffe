@@ -18,7 +18,7 @@ contract BuyMeACoffeeTest is Test {
     }
 
     function testOwner() external {
-        assertEq(buyMeACoffee.owner(), address(this));
+        assertEq(buyMeACoffee.getOwner(), OWNER);
     }
 
     function testBuyCoffee() external {
